@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import './App.css'
-import logo from './assets/images/logo.jpeg'
+import logo from './assets/images/logoNuevo.jpeg'
 import fondo1jpg from './assets/images/fondo1jpg.jpg'
 import fondo3 from './assets/images/fondo3.jpg'
 import opcion1 from './assets/images/opcion1.jpg'
@@ -34,7 +34,7 @@ function App() {
       {/* ═══ HEADER ═══ */}
       <header className="header">
         <div className="logo">
-          <img className="realLogo" src={logo} alt="logo Flow Line" />
+          <img className="realLogo" src={logoNuevo} alt="logo Flow Line" />
         </div>
         <ContactButtonModal />
       </header>
